@@ -5,7 +5,7 @@ from transformers import pipeline
 sentiment_analyzer = pipeline("sentiment-analysis")
 
 # Streamlit UI
-st.title("Sentiment Analysis App")
+st.title("Sentiment Analysis Webpage")
 text = st.text_area("Enter text for sentiment analysis:")
 if st.button("Analyze"):
     if text:
